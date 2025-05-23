@@ -21,7 +21,7 @@ export const Home = () => {
     <div className="container-fluid text-center mt-5">
       <img src="https://scontent.fctg3-1.fna.fbcdn.net/v/t1.6435-9/116473563_887263981761005_8469172096226830960_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeF29bveES0km3rlw5rxtmUlS_nfoH1alQBL-d-gfVqVAGvhaZZrXhWPoKdODe4A3mc&_nc_ohc=bWLYY6rnuPgQ7kNvwEiAlG-&_nc_oc=Adl5uR87T1vgDg6Am43NelQVY6IRSF7SZ-PB0A4PMLsOVY_zl2iGO2O7vRLxGoXJkZk&_nc_zt=23&_nc_ht=scontent.fctg3-1.fna&_nc_gid=QTKg-LTSZ0ZkNVOeW7sZJA&oh=00_AfKA19CPmImcEmwEzgIc8SgA6WyAZbr9YjSpdijjViItCw&oe=68576D24" />
       {/* Burger */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/hamburguesas">
         <div className="burger">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faBurger} />
@@ -29,7 +29,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Sandwich */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/sandwiches">
         <div className="sandwich">
           <button className="button-56" role="button">
             🥪
@@ -37,7 +37,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Hotdog */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/perros_calientes">
         <div className="hotDog">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faHotdog} />
@@ -45,7 +45,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Antojitos */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/antojitos">
         <div className="antojitos">
           <button className="button-56" role="button">
             <strong>😋Antojitos😋</strong>
@@ -53,7 +53,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Otros */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/otros">
         <div className="otros">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faCirclePlus} />
@@ -61,7 +61,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Green Salads */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/ensaladas_verdes">
         <div className="greenSalad">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faPlateWheat} />
@@ -69,7 +69,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Pizzas */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/pizzas">
         <div className="pizza">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faPizzaSlice} />
@@ -77,7 +77,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Ceviches */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/ceviches">
         <div className="ceviche">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faShrimp} />
@@ -85,7 +85,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Beverages */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/bebidas">
         <div className="bebida">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faMartiniGlassCitrus} />
@@ -94,7 +94,7 @@ export const Home = () => {
         </div>
       </Link>
       {/* Desserts */}
-      <Link className="noULine" to="/demo">
+      <Link className="noULine" to="/postres">
         <div className="postre">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faIceCream} /> Postres{" "}

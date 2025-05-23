@@ -6,7 +6,12 @@ export const Ceviches = () => {
 
   return (
     <>
-      <h1>Ceviches</h1>
+      <div className="food">
+        <h1>Ceviches</h1>
+      </div>
+      <Link to="/">
+        <button className="button-64">Menú Principal</button>
+      </Link>
     </>
   );
 };

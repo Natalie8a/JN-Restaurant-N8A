@@ -106,6 +106,13 @@ img {
   transform: rotatez(-0.1turn) translateX(40%) translateY(-1300%);
 }
 
+/*Pages*/
+.food {
+  width: 100%;
+  height: 550px;
+}
+/*Burger page*/
+
 /*ALL BUTTON basics*/
 /*neon button*/
 /*HTML
@@ -115,12 +122,12 @@ img {
   /*#4997C8 franja azul
 #DD3A8B franja rosada
 #A14F9B franja morada*/
-  background-image: linear-gradient(144deg, #11222c, #351022 30%, #0f202a);
+  background-image: linear-gradient(144deg, #4997c8, #dd3a8b 30%, #4997c8);
   border: 0;
   border-radius: 8px;
   box-shadow: #000000 0 15px 30px -5px;
   box-sizing: border-box;
-  color: rgb(117, 117, 117);
+  color: rgb(255, 255, 255);
   font-family: Phantomsans, sans-serif;
   font-size: 20px;
   line-height: 2em;
