@@ -233,11 +233,11 @@ img {
 }
 
 @media (min-width: 768px) {
-  .container-fluid {
+  /*.container-fluid {
     position: static !important;
     transform: none !important;
     margin-top: 0.5rem;
-  }
+  }*/
   .button-56 {
     padding: 0 40px;
   }
