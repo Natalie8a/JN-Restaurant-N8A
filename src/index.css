@@ -1,0 +1,220 @@
+body {
+  background: linear-gradient(
+    132deg,
+    /*
+    #000000,
+    #200d04,
+    #260e09,
+    #251308,
+    #2b1308,
+    #301807*/
+      #000000,
+    #2f0aa0,
+    #000000,
+    #e60073,
+    #000000,
+    #4997c8
+  );
+  background-size: 400% 400%;
+  animation: BackgroundGradient 20s ease infinite;
+  color: rgb(160, 156, 156);
+}
+
+.noULine {
+  text-decoration: none;
+}
+
+.container-fluid {
+  position: relative; /* Make it the reference point for absolute positioning */
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: linear-gradient(144deg, #4997c8, #dd3a8b 10%, #4997c8);
+  box-shadow: #0fe4c472 0 15px 30px -5px;
+}
+img {
+  width: 300px;
+  border-width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(-50%) translateY(8%);
+  box-shadow: #00000072 0 15px 30px -5px;
+}
+
+/*Specific button positons*/
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.sandwich {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-97%) translateY(-30%);
+}
+.hotDog {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-90%) translateY(-10%);
+}
+.antojitos {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-55%) translateY(-20%);
+}
+
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+.burger {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-98%) translateY(-50%);
+}
+
+/*ALL BUTTON basics*/
+/*neon button*/
+/*HTML
+<button class="button-64" role="button"><span class="text">Button 64</span></button>*/
+.button-64 {
+  align-items: center;
+  /*#4997C8 franja azul
+#DD3A8B franja rosada
+#A14F9B franja morada*/
+  background-image: linear-gradient(144deg, #11222c, #351022 30%, #0f202a);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: #000000 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: rgb(117, 117, 117);
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  line-height: 2em;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  background-color: #4997c8;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: black;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/*3D comic button*/
+/*HTML
+<button class="button-56" role="button">Button 56</button>*/
+.button-56 {
+  align-items: center;
+  background-color: #020328;
+  border: 2px solid #1a137970;
+  border-radius: 50%;
+  /*border-radius: 8px;*/
+  color: rgb(215, 213, 246);
+  cursor: pointer;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 80%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: #0c0825d5;
+  border-radius: 50%;
+  /*border-radius: 8px;*/
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
