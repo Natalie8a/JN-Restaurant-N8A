@@ -31,6 +31,7 @@ body {
   border-radius: 50%;
   background-color: linear-gradient(144deg, #4997c8, #dd3a8b 10%, #4997c8);
   box-shadow: #0fe4c472 0 15px 30px -5px;
+  margin-bottom: 100px;
 }
 img {
   width: 300px;
@@ -46,19 +47,20 @@ img {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: translateX(-98%) translateY(-120%);
 }
+
 .sandwich {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-97%) translateY(-30%);
+  transform: translateX(-97%) translateY(-70%);
 }
 .hotDog {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-90%) translateY(-10%);
+  transform: translateX(-90%) translateY(-30%);
 }
 .antojitos {
   position: relative;
@@ -67,41 +69,41 @@ img {
   transform: translateX(-55%) translateY(-20%);
 }
 
-.burger {
+.otros {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: translateX(-19%) translateY(-185%);
 }
-.burger {
+.greenSalad {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: translateX(-7%) translateY(-400%);
 }
-.burger {
+.pizza {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: translateX(-1%) translateY(-635%);
 }
-.burger {
+.ceviche {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: translateX(-3%) translateY(-870%);
 }
-.burger {
+.bebida {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: rotatez(0.05turn) translateX(-80%) translateY(-1030%);
 }
-.burger {
+.postre {
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translateX(-98%) translateY(-50%);
+  transform: rotatez(-0.1turn) translateX(40%) translateY(-1300%);
 }
 
 /*ALL BUTTON basics*/

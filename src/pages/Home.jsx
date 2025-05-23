@@ -11,6 +11,8 @@ import { faShrimp } from "@fortawesome/free-solid-svg-icons";
 import { faMartiniGlassCitrus } from "@fortawesome/free-solid-svg-icons";
 import { faIceCream } from "@fortawesome/free-solid-svg-icons";
 import { faCirclePlus } from "@fortawesome/free-solid-svg-icons";
+import { faStroopwafel } from "@fortawesome/free-solid-svg-icons";
+import { faWhiskeyGlass } from "@fortawesome/free-solid-svg-icons";
 
 export const Home = () => {
   const { store, dispatch } = useGlobalReducer();
@@ -87,6 +89,7 @@ export const Home = () => {
         <div className="bebida">
           <button className="button-56" role="button">
             <FontAwesomeIcon icon={faMartiniGlassCitrus} />
+            Bebidas <FontAwesomeIcon icon={faWhiskeyGlass} />
           </button>
         </div>
       </Link>
@@ -94,7 +97,8 @@ export const Home = () => {
       <Link className="noULine" to="/demo">
         <div className="postre">
           <button className="button-56" role="button">
-            <FontAwesomeIcon icon={faIceCream} />
+            <FontAwesomeIcon icon={faIceCream} /> Postres{" "}
+            <FontAwesomeIcon icon={faStroopwafel} />
           </button>
         </div>
       </Link>
