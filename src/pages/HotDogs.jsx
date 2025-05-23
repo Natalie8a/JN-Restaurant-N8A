@@ -10,7 +10,9 @@ export const HotDogs = () => {
         <h1>Perros Calientes</h1>
       </div>
       <Link to="/">
-        <button className="button-64">Menú Principal</button>
+        <div className="centralButton">
+          <button className="button-64">Menú Principal</button>
+        </div>
       </Link>
     </>
   );
