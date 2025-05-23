@@ -233,7 +233,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .dropdown-menu {
+  .container-fluid {
     position: static !important;
     transform: none !important;
     margin-top: 0.5rem;
